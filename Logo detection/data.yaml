@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 5
+names: ['Coke', 'Heineken', 'Mc', 'Pepsi', 'Starbucks']
+
+roboflow:
+  workspace: data6000
+  project: brand-logo-recognition-yolov8
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/data6000/brand-logo-recognition-yolov8/dataset/1

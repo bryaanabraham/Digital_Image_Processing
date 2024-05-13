@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 15
+names: ['logo_detected', 'logo_detected', 'logo_detected', 'logo_detecteda', 'logo_detected', 'logo_detected', 'logo_detected', 'logo_detected', 'logo_detected', 'logo_detected', 'logo_detected', 'logo_detected', 'logo_detected', 'logo_detected', 'logo_detected']
+
+roboflow:
+  workspace: raveesh-gupta
+  project: logo-dataset-3itmd
+  version: 6
+  license: Public Domain
+  url: https://universe.roboflow.com/raveesh-gupta/logo-dataset-3itmd/dataset/6
